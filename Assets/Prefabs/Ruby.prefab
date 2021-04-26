@@ -107,11 +107,22 @@ MonoBehaviour:
     type: 3}
   fixedEffect: {fileID: 1279534148078117543, guid: 88e054f8d0da3ea45bf297d620bdee2d,
     type: 3}
+  PortalEffect: {fileID: 6819698802266247399, guid: ed09f941f3848254ab6c973e23a5cf36,
+    type: 3}
+  SpeedEffect: {fileID: 427404580009052905, guid: bcdd948e16471174d886d1232bd57b39,
+    type: 3}
   youLose: {fileID: 0}
+  youWin: {fileID: 0}
+  cogText: {fileID: 0}
+  maxRobots: 10
+  Dashes: 3
   throwSound: {fileID: 8300000, guid: 4b6bc5f2bade0a34d85cd6b583feac0b, type: 3}
   hitSound: {fileID: 8300000, guid: aafc83113fd71e54d9f71c2b6dab0f1b, type: 3}
+  talkSound: {fileID: 8300000, guid: 57bb23181e001824e8dbb15adf4f8677, type: 3}
+  dashSound: {fileID: 8300000, guid: c85869d4b44fe754fade4d3edf91285c, type: 3}
   Cogs: 10
   timeInvincible: 2
+  timeDashing: 0.5
 --- !u!50 &2440960933530958540
 Rigidbody2D:
   serializedVersion: 4
@@ -199,7 +210,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 25
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0

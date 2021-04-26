@@ -7,6 +7,8 @@ TagManager:
   - EnemyH
   - EnemyE
   - RubyController
+  - Cog
+  - Portal
   layers:
   - Default
   - TransparentFX
